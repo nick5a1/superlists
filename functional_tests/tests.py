@@ -23,7 +23,7 @@ LOGGING = {
 logging.config.dictConfig(LOGGING)
 logging.info('Logging to console enabled')
 
-MAX_WAIT = 10
+MAX_WAIT = 5
 
 class NewVisitorTest(LiveServerTestCase):  
 
